@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>ذكرياتنا ❤️</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+</head>
+<body>
+
+<div class="login-box">
+
+    <!-- الرسالة -->
+    <div id="message">
+        <h2>❤️ رسالة ليكي ❤️</h2>
+        <p>
+            قبل أي صورة  
+            وقبل أي ذكرى  
+            حابب أقولك إنك  
+            أحلى حاجة حصلتلي في حياتي  
+            ووجودك جنبي هو الأمان كله 💖
+        </p>
+
+        <button onclick="showPhotos()">دخولي على ذكرياتنا 📸</button>
+    </div>
+
+    <!-- الصور -->
+    <div id="photos" style="display:none;">
+        <h2>📸 ذكرياتنا</h2>
+
+        <img src="photo1.jpg?v=1" width="220">
+        <img src="photo2.jpg?v=1" width="220">
+        <img src="photo3.jpg?v=1" width="220">
+
+        <p style="margin-top:15px;">
+            وكل صورة فيهم بتحكي حكاية حب ❤️
+        </p>
+    </div>
+
+</div>
+
+<script>
+function showPhotos() {
+    document.getElementById("message").style.display = "none";
+    document.getElementById("photos").style.display = "block";
+}
+</script>
+
+</body>
+</html>
